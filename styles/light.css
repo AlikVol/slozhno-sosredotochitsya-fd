@@ -24,6 +24,10 @@
     --custom-title-color: #FFC2E6;
     --main-bg-color: #353430;
     }
+    
+    .lamp {
+        display: none;
+    }
 }
 
 .theme-light .lamp {

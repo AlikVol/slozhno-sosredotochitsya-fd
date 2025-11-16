@@ -1,8 +1,4 @@
 :root.theme-dark {
-  --font-family: 'IBM Plex mono', sans-serif;
-  --font-size: 18px;
-  --font-weight: normal;
-  --pink: #ff0070;
   --btn-color: #ff0070;
   --border-color: rgba(255, 0, 112, 0.40);
   --rectangle-color: #ff0070;
@@ -17,10 +13,6 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --font-family: 'IBM Plex mono', sans-serif;
-        --font-size: 18px;
-        --font-weight: normal;
-        --pink: #ff0070;
         --btn-color: #ff0070;
         --border-color: rgba(255, 0, 112, 0.40);
         --rectangle-color: #ff0070;
@@ -31,5 +23,13 @@
         --main-bg-color: #000028;
         --text-color: #F1B2CE;
         --background-image: url("../images/cover-image-dark.png");
-    }
+    } 
+}
+
+.theme-dark .lamp {
+  display: flex;
+}
+
+.lamp {
+  display: flex;
 }
