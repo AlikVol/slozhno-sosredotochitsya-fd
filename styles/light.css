@@ -13,16 +13,16 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-    --text-color: #353430;
-    --background-image: url("../images/cover-image-light.png");
-    --btn-color: #353430;
-    --border-color: rgba(50, 49, 45, 0.40);
-    --rectangle-color: #353430;
-    --shadow: #FF8DCB;
-    --section-title-color: #353430;
-    --title-bg-color: #FF8DCB;
-    --custom-title-color: #FFC2E6;
-    --main-bg-color: #353430;
+        --text-color: #353430;
+        --background-image: url("../images/cover-image-light.png");
+        --btn-color: #353430;
+        --border-color: rgba(50, 49, 45, 0.40);
+        --rectangle-color: #353430;
+        --shadow: #FF8DCB;
+        --section-title-color: #353430;
+        --title-bg-color: #FF8DCB;
+        --custom-title-color: #FFC2E6;
+        --main-bg-color: #353430;
     }
     
     .lamp {

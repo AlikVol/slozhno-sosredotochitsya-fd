@@ -13,17 +13,17 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --btn-color: #ff0070;
-        --border-color: rgba(255, 0, 112, 0.40);
-        --rectangle-color: #ff0070;
-        --shadow: #ff0070;
-        --custom-title-color: #DB00FF;
-        --section-title-color: #ff0070;
-        --title-bg-color: #ff0070;
-        --main-bg-color: #000028;
-        --text-color: #F1B2CE;
-        --background-image: url("../images/cover-image-dark.png");
-    } 
+      --btn-color: #ff0070;
+      --border-color: rgba(255, 0, 112, 0.40);
+      --rectangle-color: #ff0070;
+      --shadow: #ff0070;
+      --custom-title-color: #DB00FF;
+      --section-title-color: #ff0070;
+      --title-bg-color: #ff0070;
+      --main-bg-color: #000028;
+      --text-color: #F1B2CE;
+      --background-image: url("../images/cover-image-dark.png");
+    }  
 }
 
 .theme-dark .lamp {
