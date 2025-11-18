@@ -82,9 +82,8 @@
     block-size: 25px;
     border-top: 1px solid var(--rectangle-color);
     border-right: 1px solid var(--rectangle-color);
-    margin: 10px;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
 }
 
 .rectangle::after {
@@ -92,11 +91,10 @@
     position:absolute;
     inline-size: 25px;
     block-size: 25px;
-    margin: 10px;
     border-bottom: 1px solid var(--rectangle-color);
     border-left: 1px solid var(--rectangle-color);
-    bottom: 0;
-    left: 0;
+    bottom: 10px;
+    left: 10px;
 }
 
 .lamp {
@@ -187,7 +185,7 @@
 }
 
 
-.block__title-five {
+.block__title-recommendations {
     margin-top: 20px;
     margin-bottom: 0;
 }
@@ -240,17 +238,18 @@
     }
     
     .lamp {
-        position: absolute;
         top: 20px;
         right: 29px;
     }
 
     .rectangle::before {
-        margin: 20px;
+        top: 20px;
+        right: 20px;
     }
 
     .rectangle::after {
-        margin: 20px;
+        bottom: 20px;
+        left: 20px;
     }
 
     .content {
@@ -285,7 +284,7 @@
         margin: 10px 0 20px 0;
     }
 
-    .block__title-five {
+    .block__title-recommendations {
         margin-bottom: 20px;
     }
 
